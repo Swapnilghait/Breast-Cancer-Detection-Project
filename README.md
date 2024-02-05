@@ -24,14 +24,14 @@ It includes essential information such as patient characteristics, diagnostic fe
    
 To evaluate the model's performance, the dataset was divided into training and test sets. This step is crucial for assessing how well the model generalizes to new, unseen data. An 80-20 split ratio was adopted, with 80% of the data used for training and 20% for testing.
 
-6. Feature Scaling
+5. Feature Scaling
    
 Feature scaling was applied to ensure that all features contribute equally to the model training process. Commonly used techniques include standardization or normalization. This step enhances the model's convergence and stability.
 
-8. Random Forest Training on Training Set
+6. Random Forest Training on Training Set
    
 The Random Forest algorithm was chosen for its ability to handle complex datasets and provide robust predictions. The model was trained on the training set, learning patterns and relationships within the features to make accurate predictions regarding breast cancer diagnosis.
 
-10. Confusion Matrix
+7. Confusion Matrix
     
 The confusion matrix was employed to evaluate the model's performance. It provides insights into the number of true positives, true negatives, false positives, and false negatives. Metrics such as precision, recall, and accuracy can be derived from the confusion matrix, offering a comprehensive assessment of the model's effectiveness.
